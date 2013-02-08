@@ -100,7 +100,11 @@ text.seasonLabel {
   font-size: 15pt;
 }
 
-g.day text.Sunday, g.day text.Saturday {
+g.day circle {
+  fill: rgb(206, 206, 206)
+}
+
+g.day circle.Sunday, g.day circle.Saturday {
   fill: #F90;
 }
 
@@ -144,6 +148,18 @@ g.precip rect {
 
 g.snow rect {
   fill: #65DAF4;
+}
+
+g.mouseDay path {
+  opacity: 0;
+}
+g.mouseDay path:hover {
+  opacity: .15;
+}
+
+
+#selectedDay {
+  font-family: LeagueGothicRegular;
 }
 
 
