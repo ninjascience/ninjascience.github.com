@@ -34,6 +34,7 @@ body {
 
 }
 
+
 path{
   shape-rendering:geometricPrecision;
 }
@@ -146,7 +147,14 @@ path.first_quarter, path.last_quarter {
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 315px;
+  width: 400px;
+}
+
+
+#legend h1 {
+  font-family: 'LeagueGothicRegular';
+  font-size: 52px;
+  font-weight: normal;
 }
 
 g.precip rect {
