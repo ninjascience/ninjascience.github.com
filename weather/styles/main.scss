@@ -20,6 +20,13 @@
 
 }
 
+@font-face {
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sanchez'), local('Sanchez-Regular'), url(../fonts/Sanchez.woff) format('woff');
+}
+
 
 body {
   font-family: 'Sanchez', serif;
